@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/enterLocations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/get_meeting_location"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/setLocations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enterLocations"
+        android:layout_centerHorizontal="true"
+        android:width="320dp"
+        android:height="200dp"
+        android:gravity="top|left"
+        android:hint="@string/locations_hint"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:minLines="0"
+        android:paddingTop="10dp"
+        android:scrollbars="vertical"
+        android:textColor="@color/colorAccent" />
+
+
+    <Button
+        android:id="@+id/enter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setLocations"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="@string/ENTER"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/view_locations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter2"
+        android:layout_marginTop="40dp"
+        android:width="320dp"
+        android:height="125dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/see_locations_hint"
+        android:gravity="center"
+        android:paddingTop="100dp" />
+
+
+    <Button
+        android:id="@+id/see_locations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_locations"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="@string/see_locations"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/Next2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NEXT"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/see_locations"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+</RelativeLayout>

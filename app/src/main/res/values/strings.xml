@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GetTopicInput</string>
+    <string name="get_topic_list">What Are You Interested In Talking About?</string>
+    <string name="ENTER">ENTER</string>
+    <string name="get_meeting_location">Where Do You Want To Meet Friends?</string>
+    <string name="NEXT">NEXT</string>
+    <string name="see_interests">SEE INTERESTS</string>
+    <string name="see_interests_hint">Click SEE INTERESTS to view interests</string>
+    <string name="see_locations_hint">Click SEE LOCATIONS to view interests</string>
+    <string name="see_locations">SEE LOCATIONS</string>
+    <string name="interest_hint">Please enter your interests separated by a comma. Eg. Swimming, Reading, Biking,&#8230;</string>
+    <string name="locations_hint">Please enter your locations of interest separated by a comma. Eg. Library, Bar, Chipotle, University,&#8230;</string>
+    <string name="facebook_app_id">2022541864712555</string>
+    <string name="fb_login_protocol_scheme">fb2022541864712555</string>
+</resources>
